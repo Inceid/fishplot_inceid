@@ -174,7 +174,7 @@ annotClone <- function(x, y, annot, angle=0, col = "black", pos=4, cex=0.5, offs
 #'
 createBackgroundImage <- function(col=NULL){
   if(length(col) !=3){
-    col=c("bisque","darkgoldenrod1","darkorange3")
+    col=c("white","white","white")
     print("WARNING: there were not 3 background gradient colors set - falling back to defaults")
   }
   ##create background image with smooth gradient
